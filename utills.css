@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 80vw;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.navbar{
+    display: flex;
+    height: 67px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+}
+.topleft{
+    width: 50%;
+    height: 50vh;
+}
+.topright{
+    width: 50%;
+    height: 50vh;
+}
+.section1{
+    height: 50vh;
+}
+.min-h-screen{
+    min-height: 100vh;
+}
+.bg-red{
+    background-color: rgb(128, 175, 183)
+}
+.auto-mx{
+    margin-left: auto;
+    margin-right: auto;
+}
+.fs{
+    font-size: 30px;
+    font-family: 'Borel', cursive;
+}
+.flex{
+    display: flex;
+}
+.items-center{
+    align-items: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.justify-center{
+    justify-content: center;
+}
+.flex-col{
+    flex-direction: column;
+}
+.font-bold{
+    font-weight: bold;
+}
+.my1{
+    margin-top: 13px;
+    margin-bottom: 13px;
+    font-size: 2.5rem;
+    font-family: "Audiowide", sans-serif;
+}
+.my2{
+    margin-top: 26px;
+    margin-bottom: 26px;
+    
+    
+}
+.px2{
+    padding-right: 13px;
+    padding-left: 13px;
+}
+.text-blue{
+    color: rgb(11, 11, 141);
+}
+.btn{
+    padding: 4px 12px;
+    border: 2px solid rgb(246, 241, 241);
+    border-radius: 10px;
+    background-color: rgb(47, 111, 157);
+    cursor: pointer;
+}
+.image{
+    width: 350px;
+    height: 285px;
+}
+.img2{
+    width: 200px;
+    height: 150px;
+}
+.text-center{
+    text-align: center;
+}
+.section2{
+    padding-left: 63px;
+    padding-right: 63px;
+}
+.section2 p{
+    text-align: center;
+    padding: 0px;
+}
+.section2 h1{
+    font-size: 2rem;
+}
+.box{
+    margin: 12px 26px;
+    min-width: 23vw;
+    border: 2px solid black;
+    border-radius: 8px;
+    text-align: center;
+}
+.highlighted{
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+.box ul{
+    list-style-type: none;
+}
+.box ul li{
+    margin: 12px 2px;
+}
+.box h1{
+    padding: 10px 0px;
+}
+.plantable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 table{
+    width: 100%;
+    margin-bottom: 140px;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.section3 table th{ 
+    width: 23vw; 
+    border-bottom: 2px solid black;
+    padding: 15px 0;
+} 
+
+.section3 table td{   
+    border-bottom: 2px solid black; 
+} 
+ 
+
+.section3 h1{
+    font-size: 2.3rem;
+}
+
+.section3{
+    padding: 73px;
+}
+footer{
+    padding: 23px;
+    text-align: center;
+}
